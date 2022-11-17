@@ -17,6 +17,8 @@ namespace msg
     {
         public:
             virtual ~chat_participant() {}
+            /// @brief доставитть
+            /// @param msg 
             virtual void deliver(const chat_message& msg) = 0;
     };
 
